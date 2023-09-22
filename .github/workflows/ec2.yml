@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   call-ec2-workflow:
-    uses: ./.github/workflows/deploy.yaml
+    uses: ./.github/workflows/deploy.yml
     with:
       work-dir: "environments/ec2"
       aws-region: "us-east-1"
