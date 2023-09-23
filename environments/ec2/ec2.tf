@@ -6,11 +6,11 @@ resource "aws_instance" "demo_instance" {
 }
 
 # Declare an existing VPC using a data source
-data "aws_vpc" "default-vpc" {
+/*data "aws_vpc" "default-vpc" {
   id = "var.vpc_id"
 }
 
 # Declare a data source to fetch the subnet details
 data "aws_subnet" "default-subnet" {
   id = "var.sunet_id" # Replace with the actual ID of the desired subnet
-}
+}*/
