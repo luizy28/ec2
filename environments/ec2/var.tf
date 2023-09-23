@@ -7,3 +7,8 @@ variable "vpc_security_group_ids" {
   type    = string
   default = "sg-01916723f229e5911"
 }
+
+variable "vpc_id" {
+  type    = string
+  default = "vpc-0ac645c8c535bfe31"
+}
