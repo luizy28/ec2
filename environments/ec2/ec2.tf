@@ -6,8 +6,8 @@ resource "aws_instance" "demo_instance" {
 }
 
 resource "aws_instance" "demo_instance" {
-  ami           = "ami-03a6eaae9938c858c"
-  instance_type = "t2.micro"
-  subnet_id     = aws_vpc.default-vpc.subnet-071e4be63d59a6296
+  ami                    = "ami-03a6eaae9938c858c"
+  instance_type          = "t2.micro"
+  subnet_id              = aws_vpc.default-vpc.subnet-071e4be63d59a6296
   vpc_security_group_ids = [data.aws_security_group.sg-01916723f229e5911]
 }
